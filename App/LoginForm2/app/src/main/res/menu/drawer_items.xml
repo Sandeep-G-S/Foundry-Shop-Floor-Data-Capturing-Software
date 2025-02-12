@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/g1">
+
+        <item
+            android:icon="@drawable/zmenu"
+            android:id="@+id/navMenu"
+            android:title="Menu" />
+    </group>
+    <group android:id="@+id/g2">
+        <item
+            android:icon="@drawable/zcreate"
+            android:id="@+id/navCreate"
+            android:title="FDYDMS_DISA" />
+    </group>
+    <group android:id="@+id/g3">
+        <item
+            android:icon="@drawable/zgetall"
+            android:id="@+id/navPCL"
+            android:title="FDYDMS_PCL" />
+    </group>
+    <group android:id="@+id/g4">
+        <item
+            android:icon="@drawable/zget"
+            android:id="@+id/navGet"
+            android:title="Get By ID" />
+    </group>
+    <group android:id="@+id/g5">
+        <item
+            android:icon="@drawable/zupdate"
+            android:id="@+id/navUpdate"
+            android:title="Update" />
+    </group>
+    <group android:id="@+id/g6">
+        <item
+            android:icon="@drawable/zdelete"
+            android:id="@+id/navDelete"
+            android:title="Delete" />
+    </group>
+    <item
+        />
+    <item
+        />
+    <item
+        />
+    <item
+        />
+    <item
+        />
+    <item
+        />
+    <item
+        />
+    <item
+        />
+
+
+
+</menu>

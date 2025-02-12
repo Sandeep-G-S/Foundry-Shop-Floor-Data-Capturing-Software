@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+    <string-array name="spinner_options">
+        <item>SF1</item>
+        <item>SF2</item>
+        <item>SF3</item>
+    </string-array>
+</resources>

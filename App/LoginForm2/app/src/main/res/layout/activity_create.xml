@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107">
+
+
+        <ImageButton
+            android:id="@+id/buttonDrawerToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:padding="5dp"
+            android:src="@drawable/zmenu" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/myshape"
+        android:scrollbarSize="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FDYDMS_DISA"
+                android:textColor="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="140dp"
+                    android:text="Line :"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerOptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/pwd_bg"
+                    android:entries="@array/spinner_options" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="Measurement date "
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="true"
+                android:background="@drawable/pwd_bg"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:hint="Measurement time"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/editTextDateCode"
+                android:background="@drawable/pwd_bg"
+                android:hint="Date code"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editTextSupervisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:hint="Supervisor"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editTextOperator"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:hint="Operator"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editTextShift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Shift"/>
+
+            <EditText
+                android:id="@+id/editTextMouldingMachine"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Moulding machine"/>
+
+            <EditText
+                android:id="@+id/editTextFoundryCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Foundry code"/>
+
+            <EditText
+                android:id="@+id/editTextNoOfCavities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="No of cavities"/>
+
+            <EditText
+                android:id="@+id/editTextPartNumberStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Part number status"/>
+
+
+            <EditText
+                android:id="@+id/editTextCavityNumberStatus"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Cavity number status"/>
+
+            <EditText
+                android:id="@+id/editTextDateCodeStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Date code status"/>
+
+            <EditText
+                android:id="@+id/editTextMouldBreakageStatusRam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Mould breakage status ram"/>
+
+            <EditText
+                android:id="@+id/editTextMouldBreakageStatusSwing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Mould breakage status swing"/>
+
+            <EditText
+                android:id="@+id/editTextMouldsMadePlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Moulds made plan"/>
+
+            <EditText
+                android:id="@+id/editTextMouldsMadeActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Moulds made actual"/>
+
+
+            <EditText
+                android:id="@+id/editTextMouldsPouredPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Moulds poured plan"/>
+
+            <EditText
+                android:id="@+id/editTextMouldsPouredActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Moulds poured actual"/>
+
+            <EditText
+                android:id="@+id/editTextLooseSand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Loose sand"/>
+
+            <EditText
+                android:id="@+id/editTextCoreSeating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Core seating"/>
+
+            <EditText
+                android:id="@+id/editTextSprayNozzleCondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Spray nozzle condition"/>
+
+            <EditText
+                android:id="@+id/editTextVisualCastingInspection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Visual casting inspection"/>
+
+            <EditText
+                android:id="@+id/editTextMouldCrush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:backgroundTint="@color/white"
+                android:hint="Mould crush"/>
+
+            <EditText
+                android:id="@+id/editTextFilterPlacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Filter placing"/>
+
+            <EditText
+                android:id="@+id/editTextChillPlacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Chill placing"/>
+
+            <EditText
+                android:id="@+id/editTextAirBlowOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Air blow off"/>
+
+            <EditText
+                android:id="@+id/editTextMouldHardnessRam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Mould hardness ram"/>
+
+            <EditText
+                android:id="@+id/editTextMouldHardnessSwing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Mould hardness swing"/>
+
+            <EditText
+                android:id="@+id/editTextPPChangeDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="PP change delay"/>
+
+            <EditText
+                android:id="@+id/editTextMoldCrush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Mold crush"/>
+
+            <EditText
+                android:id="@+id/editTextProductionDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Production delay"/>
+
+            <EditText
+                android:id="@+id/editTextMouldMaintenanceDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Mould maintenance delay"/>
+
+            <EditText
+                android:id="@+id/editTextLaddleDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Laddle delay(Metal distribution)"/>
+
+            <EditText
+                android:id="@+id/editTextMeltingDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Melting delay"/>
+
+            <EditText
+                android:id="@+id/editTextStopperRodIssues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Stopper rod/plunger rod issues"/>
+
+            <EditText
+                android:id="@+id/editTextTundishChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Tundish change/Nozzle change"/>
+
+            <EditText
+                android:id="@+id/editTextMeltMaintenanceDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:backgroundTint="@color/white"
+                android:hint="Melt maintenance delay"/>
+
+            <EditText
+                android:id="@+id/editTextPowerCut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Power cut"/>
+
+            <EditText
+                android:id="@+id/editTextNptTrials"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="NPT trials"/>
+
+            <EditText
+                android:id="@+id/editTextImprovementTrial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Improvement trial"/>
+
+            <EditText
+                android:id="@+id/editTextStartUpDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Start up delay"/>
+
+            <EditText
+                android:id="@+id/editTextPatternRelatedProblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Pattern related problem"/>
+
+            <EditText
+                android:id="@+id/editTextChamberHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Chamber height"/>
+
+            <EditText
+                android:id="@+id/editTextChamberGap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/pwd_bg"
+                android:padding="10dp"
+                android:hint="Chamber Gap (Ram and Swing )"/>
+
+            <EditText
+                android:id="@+id/editTextNoOfMouldsTakeOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="No. of Moulds take out due to leak"/>
+
+            <EditText
+                android:id="@+id/editTextMouldBrokenQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:hint="Mould Broken Quantity"/>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/pwd_bg"
+                android:backgroundTint="#FFC107"
+                android:textColor="@android:color/white"
+                android:padding="12dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
