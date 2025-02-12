@@ -33,19 +33,19 @@ git clone https://github.com/Sandeep-G-S/Foundry-Shop-Floor-Data-Capturing-Softw
 cd Foundry-Shop-Floor-Data-Capturing-Software
 ```
 
-### 🔹 Step 2: Configure the Database**
+### 🔹 **Step 2: Configure the Database**
 1️⃣ Open SQL Server Management Studio (SSMS)
 2️⃣ Create a new database named: FoundryDB
 3️⃣ Run the provided SQL script (database_script.sql) to set up tables
 
-###🔹 Step 3: Configure Environment Variables**
+###🔹**Step 3: Configure Environment Variables**
 Create a .env file in the root directory and add:
 ```sh
 DB_CONNECTION_STRING="Server=YOUR_SERVER;Database=FoundryDB;User Id=sa;Password=your_password;"
 JWT_SECRET="your-secret-key"
 ```
 
-###🔹 Step 4: Run the Backend**
+###🔹 **Step 4: Run the Backend**
 ```sh
 cd backend
 dotnet restore
@@ -54,7 +54,7 @@ dotnet run
 
 The API will start at http://localhost:5000 🚀
 
-###🔹 Step 5: Run the Android App**
+###🔹 **Step 5: Run the Android App**
 1️⃣ Open the android-app folder in Android Studio
 2️⃣ Connect an emulator or physical device
 3️⃣ Click Run ▶ to launch the app
