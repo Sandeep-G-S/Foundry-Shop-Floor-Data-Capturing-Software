@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project Summer 2nd\\Project\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|d:\\project summer 2nd\\project\\webapplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|d:\\project summer 2nd\\project\\webapplication1\\webapplication1\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|d:\\project summer 2nd\\project\\webapplication1\\webapplication1\\controllers\\loginformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\loginformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|d:\\project summer 2nd\\project\\webapplication1\\webapplication1\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|d:\\project summer 2nd\\project\\webapplication1\\webapplication1\\controllers\\mouldingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F4CB6DF-2A8D-4116-9201-92D82F930343}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\mouldingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\TokenService.cs",
+              "ToolTip": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Services\\TokenService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\TokenService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:45:49.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginFormController.cs",
+              "DocumentMoniker": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\LoginFormController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LoginFormController.cs",
+              "ToolTip": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\LoginFormController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\LoginFormController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:38:34.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MouldingDataController.cs",
+              "DocumentMoniker": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\MouldingDataController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MouldingDataController.cs",
+              "ToolTip": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\MouldingDataController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MouldingDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:20:36.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowEsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:20:34.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\User.cs",
+              "ToolTip": "D:\\Project Summer 2nd\\Project\\WebApplication1\\WebApplication1\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:18:21.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
